@@ -6,7 +6,7 @@ jobs:
     steps:
       - run: echo 'Hello GitHub Actions!' 
   pwd-ls:
-    names: PWD & LS
+    name: PWD & LS
     runs-on: ubunt-latest
     steps:
       - name: Print working directory
